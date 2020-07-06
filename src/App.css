@@ -1,0 +1,41 @@
+.control {
+    padding: 20px;
+    background-color: rgb(147, 239, 255);
+}
+.selectBox {
+    border: 1px solid black;
+    height: 15px;
+    width: 169px;
+    padding: 2px;
+    font-size: 13px;
+    display: inline-block;
+    background-color: white;
+}
+.board {
+    padding: 20px;
+}
+.listWrapper {
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+}
+.listWrapper > div {
+    width: 180px;
+    padding: 10px;
+    background-color: rgb(173, 173, 173);
+}
+.listWrapper > div > h1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+.TaskBox {
+    border: 1px solid black;
+    padding: 4px 8px;
+    margin: 5px 0;
+}
+button {
+    margin: 0 5px;
+}
+
